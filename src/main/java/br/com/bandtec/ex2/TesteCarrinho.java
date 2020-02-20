@@ -10,23 +10,26 @@ public class TesteCarrinho {
         System.out.println("Aplicacao iniciada!");
         int opcao;
         Scanner sc = new Scanner(System.in);
+        Scanner scLivro = new Scanner(System.in);
+        Scanner scDVD = new Scanner(System.in);
+        Scanner scServico = new Scanner(System.in);
         Carrinho carrinho = new Carrinho();
         do {
-            System.out.println("\n\n");
-            System.out.println("\t\t\t\t _______________________");
-            System.out.println("\t\t\t\t|                       |");
-            System.out.println("\t\t\t\t|    SISTEMA VENDAS     |");
-            System.out.println("\t\t\t\t|                       |");
-            System.out.println("\t\t\t\t|   Menu de Opçoes:     |");
-            System.out.println("\t\t\t\t|                       |");
-            System.out.println("\t\t\t\t|1. Adiciona livro      |");
-            System.out.println("\t\t\t\t|2. Adiciona DVD        |");
-            System.out.println("\t\t\t\t|3. Adiciona Serviço    |");
-            System.out.println("\t\t\t\t|4. Lista Itens carrinho|");
-            System.out.println("\t\t\t\t|5. Exibe Total Vendas  |");
-            System.out.println("\t\t\t\t|6. Encerra o programa  |");
-            System.out.println("\t\t\t\t|_______________________|");
-            System.out.print("\n\n\nDigite a opção desejada: ");
+            System.out.println("\n");
+            System.out.println("\t\t\t\t ________________________");
+            System.out.println("\t\t\t\t|                        |");
+            System.out.println("\t\t\t\t|    SISTEMA VENDAS      |");
+            System.out.println("\t\t\t\t|                        |");
+            System.out.println("\t\t\t\t|   Menu de Opçoes:      |");
+            System.out.println("\t\t\t\t|                        |");
+            System.out.println("\t\t\t\t|1. Adiciona livro       |");
+            System.out.println("\t\t\t\t|2. Adiciona DVD         |");
+            System.out.println("\t\t\t\t|3. Adiciona Serviço     |");
+            System.out.println("\t\t\t\t|4. Lista Itens carrinho |");
+            System.out.println("\t\t\t\t|5. Exibe Total Vendas   |");
+            System.out.println("\t\t\t\t|6. Encerra o programa   |");
+            System.out.println("\t\t\t\t|________________________|");
+            System.out.print("\nDigite a opção desejada: ");
             opcao = sc.nextInt();
             switch (opcao) {
                 case 1:
@@ -37,11 +40,11 @@ public class TesteCarrinho {
                     System.out.println("Digite o preco: ");
                     double precoCusto = sc.nextDouble();
                     System.out.println("Digite o nome do livro");
-                    String nome = sc.next();
+                    String nome = scLivro.nextLine();
                     System.out.println("Digite o nome do autor");
-                    String autor = sc.next();
+                    String autor = scLivro.nextLine();
                     System.out.println("Digite o isbn");
-                    String isbn = sc.next();
+                    String isbn = scLivro.nextLine();
                     Livro lv = new Livro(codigo, precoCusto, nome,
                             autor, isbn);
                     carrinho.adicionarCarrinho(lv);
@@ -58,9 +61,9 @@ public class TesteCarrinho {
                     System.out.println("Digite o preco: ");
                     double precoCustoDvd = sc.nextDouble();
                     System.out.println("Digite o nome do DVD");
-                    String nomeDVD = sc.next();
+                    String nomeDVD = scDVD.nextLine();
                     System.out.println("Digite o nome da Gravadora");
-                    String gravadora = sc.next();
+                    String gravadora = scDVD.nextLine();
                     DVD dvd = new DVD(codigoDvd, precoCustoDvd,
                             nomeDVD, gravadora);
                     carrinho.adicionarCarrinho(dvd);
@@ -75,7 +78,7 @@ public class TesteCarrinho {
                     System.out.println("Digite o codigo: ");
                     int codigoServico = sc.nextInt();
                     System.out.println("Digite o nome do serviço");
-                    String descricao = sc.next();
+                    String descricao = scServico.nextLine();
                     System.out.println("Digite a quantidade de " +
                             "horas: ");
                     int qtdHoras = sc.nextInt();
