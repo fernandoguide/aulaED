@@ -1,4 +1,4 @@
-package br.com.bandtec;
+package br.com.bandtec.ex1;
 
 public abstract class Produto implements Tributavel {
     private  Integer codigo;

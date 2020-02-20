@@ -1,4 +1,4 @@
-package br.com.bandtec;
+package br.com.bandtec.ex1;
 
 public class Main {
     public static void main(String[] args) {
