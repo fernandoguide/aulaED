@@ -43,7 +43,7 @@ public class Livro extends  Produto {
 
     @Override
     public double getValorVenda() {
-        return getPrecoCusto()*0.10;
+        return getPrecoCusto()*1.10;
     }
 
     @Override

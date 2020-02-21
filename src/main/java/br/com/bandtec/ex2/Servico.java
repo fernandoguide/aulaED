@@ -1,6 +1,6 @@
 package br.com.bandtec.ex2;
 
-public class Servico implements  Vendavel{
+public class Servico implements  Vendavel {
 
     private int codigo;
     private String descricao;
@@ -30,7 +30,6 @@ public class Servico implements  Vendavel{
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-
     public int getQtdHoras() {
         return qtdHoras;
     }
@@ -46,8 +45,6 @@ public class Servico implements  Vendavel{
     public void setValorHora(double valorHora) {
         this.valorHora = valorHora;
     }
-
-
 
     @Override
     public double getValorVenda() {

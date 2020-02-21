@@ -10,6 +10,7 @@ public abstract class Produto implements Vendavel {
         this.precoCusto = precoCusto;
     }
 
+
     public int getCodigo() {
         return codigo;
     }
