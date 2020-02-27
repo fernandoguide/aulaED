@@ -1,4 +1,4 @@
-package br.com.bandtec.ex3.entity;
+package br.com.bandtec.ex3;
 
 public interface Bonus {
 

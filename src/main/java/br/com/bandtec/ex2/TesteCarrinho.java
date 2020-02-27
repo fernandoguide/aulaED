@@ -116,7 +116,7 @@ public class TesteCarrinho {
     }
     public static void limparTela() {
         try {
-            Runtime.getRuntime().exec("0");
+            Runtime.getRuntime().exec("clear");
         } catch (IOException e) {
             System.out.println(e.getMessage());
             e.printStackTrace();

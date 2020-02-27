@@ -1,9 +1,5 @@
 package br.com.bandtec.ex3;
 
-import br.com.bandtec.ex3.entity.Bonus;
-import br.com.bandtec.ex3.entity.Coordenador;
-import br.com.bandtec.ex3.entity.Professor;
-
 public class Application {
     public static void main(String[] args) {
 

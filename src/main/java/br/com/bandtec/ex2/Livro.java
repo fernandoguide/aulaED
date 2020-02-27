@@ -1,6 +1,6 @@
 package br.com.bandtec.ex2;
 
-public class Livro extends  Produto {
+public class Livro extends  Produto  {
 
 
     private String nome;
