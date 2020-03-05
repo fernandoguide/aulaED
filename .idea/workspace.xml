@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5e11e74-fdb9-4d11-a739-23b92d49670d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/listaExerciciosVetor/Exercicio01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/listaExerciciosVetor/Exercicio02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bandtec/ex3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/ex3/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bandtec/ex3/ControleBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/ex3/ControleBonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bandtec/ex3/entity/Bonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/ex3/Bonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bandtec/ex3/entity/Coordenador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/ex3/Coordenador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bandtec/ex3/entity/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/ex3/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bandtec/exemplovetor/ExemploVetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/exemplovetor/ExemploVetor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/aulaED.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/bandtec/ex2/TesteCarrinho.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/bandtec/ex2/TesteCarrinho.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/bandtec/exemplovetor/ExemploVetor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/bandtec/exemplovetor/ExemploVetor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,21 +60,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/com/bandtec/ex3/entity" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.bandtec.listaExerciciosVetor" />
       <recent name="br.com.bandtec.ex2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/br/com/bandtec/ex3/entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteCarrinho">
+  <component name="RunManager" selected="Application.Exercicio02">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.bandtec.ex3.Application" />
       <module name="aulaED" />
@@ -100,12 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bandtec.Main" />
-      <module name="3ADSB-interfaces" />
+    <configuration name="Exercicio01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bandtec.listaExerciciosVetor.Exercicio01" />
+      <module name="aulaED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bandtec.*" />
+          <option name="PATTERN" value="br.com.bandtec.listaExerciciosVetor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bandtec.listaExerciciosVetor.Exercicio02" />
+      <module name="aulaED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bandtec.listaExerciciosVetor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,10 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicio02" />
+        <item itemvalue="Application.ExemploVetor" />
+        <item itemvalue="Application.Exercicio01" />
         <item itemvalue="Application.TesteCarrinho" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.ExemploVetor" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -175,38 +192,69 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="449" y="147" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1582833325952" />
-    <state width="1257" height="177" key="GridCell.Tab.0.bottom" timestamp="1582834176653">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1583446828130">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1874" height="267" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1581640402740" />
-    <state width="1257" height="177" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582834176653" />
-    <state width="1257" height="177" key="GridCell.Tab.0.center" timestamp="1582834176651">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1583446828130" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1583446828129">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1874" height="267" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1581640402738" />
-    <state width="1257" height="177" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582834176651" />
-    <state width="1257" height="177" key="GridCell.Tab.0.left" timestamp="1582834176650">
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1583446828129" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1583446828129">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1874" height="267" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1581640402736" />
-    <state width="1257" height="177" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582834176650" />
-    <state width="1257" height="177" key="GridCell.Tab.0.right" timestamp="1582834176652">
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1583446828129" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1583446828129">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1874" height="267" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1581640402739" />
-    <state width="1257" height="177" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582834176652" />
-    <state x="238" y="38" width="946" height="730" key="SettingsEditor" timestamp="1582237937951">
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1583446828129" />
+    <state width="1253" height="218" key="GridCell.Tab.1.bottom" timestamp="1583446786561">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="218" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1583446786561" />
+    <state width="1253" height="218" key="GridCell.Tab.1.center" timestamp="1583446786560">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="218" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1583446786560" />
+    <state width="1253" height="218" key="GridCell.Tab.1.left" timestamp="1583446786560">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="218" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1583446786560" />
+    <state width="1253" height="218" key="GridCell.Tab.1.right" timestamp="1583446786561">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="218" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1583446786561" />
+    <state x="238" y="38" width="946" height="730" key="SettingsEditor" timestamp="1583439310791">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="299" y="211" width="1397" height="730" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1581639870883" />
-    <state x="238" y="38" width="946" height="730" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1582237937951" />
+    <state x="238" y="38" width="946" height="730" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1583439310791" />
     <state x="721" y="228" width="468" height="657" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581638711561">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="721" y="228" width="468" height="657" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1581638711561" />
+    <state x="449" y="138" width="524" height="516" key="extract.method.dialog" timestamp="1583443586763">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="449" y="138" width="524" height="516" key="extract.method.dialog/67.27.1299.741@67.27.1299.741" timestamp="1583443586763" />
     <state x="624" y="252" key="run.anything.popup" timestamp="1581638636607">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1581638636607" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/bandtec/listaExerciciosVetor/Exercicio02.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
