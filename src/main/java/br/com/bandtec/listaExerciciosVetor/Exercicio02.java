@@ -14,7 +14,6 @@ public class Exercicio02 {
             System.out.print("Palavras=" + nome + "\t");
         }
         System.out.println();
-
         System.out.println("Digite um nome para pesquisar: ");
         String nome = sc.next();
         boolean exist = false;
@@ -23,10 +22,10 @@ public class Exercicio02 {
                 System.out.println("Nome encontrado no indice: " + i + "");
                 exist = true;
                 break;
-            }else {
-                System.out.println("Nome nao encontrad! ");
             }
         }
-
+        if (!exist){
+            System.out.println("Nome nao encontrado! ");
+        }
     }
 }
