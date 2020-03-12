@@ -13,12 +13,12 @@ public class Exercicio04 {
         }
         System.out.println("Verifique o numero: ");
         num = sc.nextInt();
-        for (int i = 0; i < 10; i++) {
-            if (num != vet[i]) {
-                System.out.println("Nao foi digitado nenhuma vez.");
-            } else {
-                System.out.println("O numero " + num + " ocore " + vet[i] + " vezes.");
+
+        for (int numero : vet) {
+            if (numero == num) {
+                System.out.println("");
             }
+
         }
     }
 }

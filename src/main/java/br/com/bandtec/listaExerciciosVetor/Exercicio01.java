@@ -2,7 +2,7 @@ package br.com.bandtec.listaExerciciosVetor;
 
 public class Exercicio01 {
     public static void main(String[] args) {
-        int[] vet = {0,1,2,3,4,5};
+        int[] vet = {0, 1, 2, 3, 4, 5};
         exibirVetor(vet);
         exibirReversoVetor(vet);
     }

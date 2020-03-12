@@ -16,15 +16,15 @@ public class Exercicio02 {
         System.out.println();
         System.out.println("Digite um nome para pesquisar: ");
         String nome = sc.next();
-        boolean exist = false;
+        boolean encontrado = false;
         for (int i = 0; i < vet3.length; i++) {
             if (vet3[i].equals(nome)) {
                 System.out.println("Nome encontrado no indice: " + i + "");
-                exist = true;
+                encontrado = true;
                 break;
             }
         }
-        if (!exist){
+        if (!encontrado) {
             System.out.println("Nome nao encontrado! ");
         }
     }

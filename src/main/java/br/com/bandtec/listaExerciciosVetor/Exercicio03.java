@@ -3,6 +3,7 @@ package br.com.bandtec.listaExerciciosVetor;
 import java.util.Scanner;
 
 public class Exercicio03 {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] vet = new int[10];
@@ -20,7 +21,7 @@ public class Exercicio03 {
         System.out.println("Maiores que a media:");
         for (int i = 0; i < vet.length; i++) {
             if (vet[i] > media) {
-                System.out.print("{" + vet[i]+"}\t");
+                System.out.print("{" + vet[i] + "}\t");
             }
         }
     }
