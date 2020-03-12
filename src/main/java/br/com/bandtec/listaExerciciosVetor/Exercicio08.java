@@ -7,23 +7,29 @@ public class Exercicio08 {
         Scanner sc = new Scanner(System.in);
         String[] t1 = new String[10];
         String[] t2 = new String[10];
-        for (int i = 0; i < t1.length; i++) {
-            System.out.println("Digite o nome do aluno T1: ");
-            t1[i] = sc.nextLine();
-        }
-        for (int i = 0; i < t2.length; i++) {
-            System.out.println("Digite o nome do aluno T2: ");
-            t2[i] = sc.nextLine();
-        }
-        exibirVetor(t1);
-        exibirVetor(t2) ;
+        int indice1 = 0, indice2 = 0;
+        String aluno, turma;
 
-    }
-
-    public static void exibirVetor(String[] v) {
-        for (int i = 0; i < v.length; i++) {
-            System.out.print("[" + i + "]valor=" + v[i] + "\t");
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Digite o nome do aluno: ");
+            aluno = sc.nextLine();
+            System.out.println("Digite a turma  do aluno T1 ou T2: ");
+            turma = sc.nextLine();
+            if (turma.equals("T1")) {
+                t1[indice1++] = aluno;
+            } else {
+                t2[indice2++] = aluno;
+            }
         }
-        System.out.println();
+        System.out.println("Quantidade de alunos da T1: " + indice1);
+        System.out.println("Quantidade de alunos da T2: " + indice2);
+        for (int i = 0; i < indice1; i++) {
+            System.out.print(t1[i]+"\t");
+        }
+        for (int i = 0; i < indice2; i++) {
+            System.out.print(t2[i]+"\t");
+        }
+
+
     }
 }
