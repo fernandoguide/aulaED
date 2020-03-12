@@ -4,21 +4,24 @@ import java.util.Scanner;
 
 public class Exercicio04 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int[] vet = new int[10];
-        int num = 0;
-        for (int i = 0; i < 10; i++) {
-            System.out.println("Digite um numero: ");
-            vet[i] = sc.nextInt();
-        }
-        System.out.println("Verifique o numero: ");
-        num = sc.nextInt();
+        int[] numeros = new int[10];
+        Scanner leitor = new Scanner(System.in);
 
-        for (int numero : vet) {
-            if (numero == num) {
-                System.out.println("");
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.println("Digite um número");
+            numeros[i] = leitor.nextInt();
+        }
+        System.out.println("Agora digite um número qualquer");
+        int numeroDigitado = leitor.nextInt();
+        int qtdDeOcorrencias = 0;
+
+        for (int numero : numeros) {
+            if (numero == numeroDigitado) {
+                qtdDeOcorrencias++;
             }
-
         }
+        System.out.println("O número digitado ocorre "
+                + qtdDeOcorrencias + " vezes no vetor");
+
     }
 }
