@@ -26,10 +26,11 @@ public class Exercicio08 {
         for (int i = 0; i < indice1; i++) {
             System.out.print(t1[i]+"\t");
         }
+        System.out.println();
         for (int i = 0; i < indice2; i++) {
             System.out.print(t2[i]+"\t");
         }
-
+        System.out.println();
 
     }
 }
