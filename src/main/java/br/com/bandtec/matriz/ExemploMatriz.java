@@ -18,10 +18,10 @@ public class ExemploMatriz {
             }
         }
         exibeMatriz(matriz);
-        System.out.println("\nExibe os dados da Matriz 1\n");
-        exibeMatriz(matriz1);
-        System.out.println("\nExibe os dados da Matriz Loka\n");
-        exibeMatriz(matrizLoka);
+//        System.out.println("\nExibe os dados da Matriz 1\n");
+//        exibeMatriz(matriz1);
+//        System.out.println("\nExibe os dados da Matriz Loka\n");
+//        exibeMatriz(matrizLoka);
         System.out.println("\nExibe os dados da Matriz Invertida\n");
         exibeMatrizInvertida(matriz);
 
@@ -38,11 +38,13 @@ public class ExemploMatriz {
     }
     public static void exibeMatrizInvertida(int[][] m) {
         // mostrando os dados da matriz
-        for (int  linha = m.length -1; linha > 0; linha--) {
-            for (int coluna = m[linha].length -1; coluna > 0; coluna--) {
+
+        for (int coluna = 0; coluna < m[0].length; coluna++) {
+            for (int linha = 0; linha < m.length; linha++) {
                 System.out.print(m[linha][coluna] + "\t");
             }
             System.out.println();
         }
+
     }
 }
